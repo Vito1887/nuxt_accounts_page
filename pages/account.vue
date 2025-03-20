@@ -33,15 +33,24 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue";
 import { useUserStore } from "~/store";
 import usersData from "~/data/users.json";
 
-const users = ref(usersData);
+interface User {
+  name: string;
+  surname: string;
+  credentials: {
+    username: string;
+  };
+  created: string;
+}
+
+const users = ref<User[]>(usersData);
 const userStore = useUserStore();
 
-const logout = () => {
+const logout = (): void => {
   userStore.logout();
   window.location.href = "/login";
 };
