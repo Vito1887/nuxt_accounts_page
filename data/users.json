@@ -1,0 +1,32 @@
+[
+  {
+    "name": "David",
+    "surname": "Jones",
+    "credentials": {
+      "username": "david.jones@creds.com",
+      "passphrase": "52ccca432ab28afd96969084c6b12b3c"
+    },
+    "active": true,
+    "created": "03.03.2025 10:00:21"
+  },
+  {
+    "name": "Samantha",
+    "surname": "Robertson",
+    "credentials": {
+      "username": "sam.robertson@creds.com",
+      "passphrase": "cefdd8f05b00320c8ff42f8734f96633"
+    },
+    "active": true,
+    "created": "03.03.2025 10:28:13"
+  },
+  {
+    "name": "Nicholas",
+    "surname": "Crew",
+    "credentials": {
+      "username": "nic.crew@creds.com",
+      "passphrase": "23c2b519b1e2cd4bba5f5f6858024785"
+    },
+    "active": false,
+    "created": "01.03.2025 12:56:28"
+  }
+] 
